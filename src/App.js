@@ -6,6 +6,7 @@ import Header from './component/Header'
 import About from './component/About'
 import Services from './component/Services'
 import Experiences from './component/Experiences'
+import Portfolio from './component/Portfolio'
 
 
 function App() {
@@ -38,7 +39,8 @@ function App() {
       <Header />
       <About />
       <Services/>
-     <Experiences/>
+      <Experiences />
+      <Portfolio/>
     </div>
   )
 }
