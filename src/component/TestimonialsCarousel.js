@@ -24,30 +24,29 @@ const TestimonialsCarousel = () => {
                 <img src={avatar1} alt="Mr. X" />
                 <div className="myCarousel">
                     <h3>Mr X</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta corrupti eaque esse blanditiis tempore? Vitae, numquam vero. Adipisci, provident nihil?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, culpa!</p>
                 </div>
             </>
             <>
                 <img src={avatar2} alt="Ms. Y" />
                 <div className="myCarousel">                    
                     <h3>Ms. Y</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta corrupti eaque esse blanditiis tempore? Vitae, numquam vero. Adipisci, provident nihil?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, asperiores.</p>
                 </div>
             </>
             <>
                 <img src={avatar3} alt="Kamal" />
                 <div className="myCarousel">                    
                     <h3>Kamal</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta corrupti eaque esse blanditiis tempore? Vitae, numquam vero. Adipisci, provident nihil?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, fugiat!</p>
                 </div>
             </>
             <>
                 <img src={avatar4} alt="Raman" />
                 <div className="myCarousel">                        
                         <h3>Raman</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta corrupti eaque esse blanditiis tempore? Vitae, numquam vero. Adipisci, provident nihil?</p>
-                </div>
-                
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, quis?</p>
+                </div>                
             </>
         </Carousel>
     )

@@ -8,6 +8,7 @@ import Services from './component/Services'
 import Experiences from './component/Experiences'
 import Portfolio from './component/Portfolio'
 import Testimonial from './component/Testimonial'
+import Contact from './component/Contact'
 
 
 function App() {
@@ -42,7 +43,8 @@ function App() {
       <Services/>
       <Experiences />
       <Portfolio />
-      <Testimonial/>
+      <Testimonial />
+      <Contact/>
     </div>
   )
 }
