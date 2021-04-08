@@ -1,13 +1,29 @@
 import React from 'react'
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+    const serviceID = "service_id"
+    const templateID = "template_id"
+    const userID = "user_XrwYcInP4o38Awo44QBAL"
+
+function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm(serviceID, templateID, e.target, userID)
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
             <div className="text-center">
                 <h1>Contact Me</h1>
                 <p>Please the form to contact with me for details</p>
             </div>
             <div className="container">
+                <form onSubmit={sendEmail}>
                 <div className="row">
                     <div className="col-md-6 col-xs-12">
                         {/* Name */}
@@ -65,8 +81,8 @@ const Contact = () => {
                         <button className="btn-main-offer contact-btn" type="submit">Send Message</button>
                     </div>
                 </div>
-
-             </div>
+            </form>
+            </div>
         </div>
     )
 }

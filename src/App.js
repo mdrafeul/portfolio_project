@@ -9,6 +9,7 @@ import Experiences from './component/Experiences'
 import Portfolio from './component/Portfolio'
 import Testimonial from './component/Testimonial'
 import Contact from './component/Contact'
+import Footer from './component/Footer'
 
 
 function App() {
@@ -44,7 +45,8 @@ function App() {
       <Experiences />
       <Portfolio />
       <Testimonial />
-      <Contact/>
+      <Contact />
+      <Footer/>
     </div>
   )
 }
